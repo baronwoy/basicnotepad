@@ -9,6 +9,6 @@ Simple Notepad Windows Form Application with functionality to Save, Open, Copy/P
 C#, .NET
 
 ## Known Issues
-* When cancelling opening a file it will r
+* When cancelling opening a file it will reopen the dialog box and an error message upon canceling again
 
 
