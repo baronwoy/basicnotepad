@@ -160,7 +160,7 @@
             // 
             colorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { backgroundToolStripMenuItem, textToolStripMenuItem });
             colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            colorToolStripMenuItem.Size = new Size(224, 26);
+            colorToolStripMenuItem.Size = new Size(128, 26);
             colorToolStripMenuItem.Text = "Color";
             // 
             // backgroundToolStripMenuItem
@@ -182,7 +182,7 @@
             // fontToolStripMenuItem
             // 
             fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            fontToolStripMenuItem.Size = new Size(224, 26);
+            fontToolStripMenuItem.Size = new Size(128, 26);
             fontToolStripMenuItem.Text = "Font";
             fontToolStripMenuItem.Click += fontToolStripMenuItem_Click;
             // 
@@ -191,7 +191,7 @@
             richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             richTextBox1.Location = new Point(0, 31);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(800, 407);
+            richTextBox1.Size = new Size(800, 421);
             richTextBox1.TabIndex = 1;
             richTextBox1.Text = "";
             // 
@@ -208,7 +208,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Basic Notepad";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
