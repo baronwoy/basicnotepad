@@ -1,4 +1,4 @@
-# Pomodoro React WebApp
+# Basic Notepad
 
 ### Project Aim
 Simple Notepad Windows Form Application with functionality to Save, Open, Copy/Paste, Cut, Undo/Redo and ability to change font, background and text color
